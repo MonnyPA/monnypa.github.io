@@ -154,13 +154,6 @@ body {
   padding: 8rem;
 }
 
-.info h2 {
-  width: 100%;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .info .alamat {
   font-size: 1.1rem;
 }
@@ -518,9 +511,34 @@ footer li {
     height: 40px;
   }
 
+  /* Navbar mobile */
+  .mynavbar .navbar-brand {
+    font-size: 1.8rem;
+  }
+
+  .mynavbar .navbar-toggler {
+    padding: 0.4rem;
+    flex-shrink: 0;
+  }
+
+  .mynavbar .offcanvas {
+    width: 75%;
+    max-width: 300px;
+  }
+
+  .mynavbar .offcanvas-body {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mynavbar .navbar-nav {
+    width: 100%;
+  }
+
   .mynavbar .nav-link {
     font-size: 1.5rem;
     text-align: center;
+    padding: 1rem;
   }
 
   .home .heart {
